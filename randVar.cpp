@@ -46,7 +46,7 @@ public:
       v += pow(values[i].first, 2) * values[i].second;
     }
 
-    return v - mean();
+    return v - pow(mean(), 2);
   }
   
   double standardDeviation() const {
