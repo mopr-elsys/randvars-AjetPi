@@ -113,7 +113,7 @@ int main() {
   /*
   // 7.
   cout << binomialDensity(234, 40, 1.0 / 6.0) << endl;
-  cout << binomialDensity(234, 40, 1.0 / 6.0) + binomialDensity(234, 39, 1.0 / 6.0) + [...] + binomialDensity(234, 1, 1.0 / 6.0) << endl;
+  cout << binomialDensity(234, 40, 1.0 / 6.0) + binomialDensity(234, 39, 1.0 / 6.0) + [...] + binomialDensity(234, 0, 1.0 / 6.0) << endl;
   */
 
   cout << binomialRandom(200, 0.5) << endl;
